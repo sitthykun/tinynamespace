@@ -22,7 +22,7 @@ return [
          */
         'mail'      => [
             'host'      => '127.0.0.1',
-            'dbname'    => 'mailclient',
+            'dbname'    => 'dbclient',
             'schema'    => 'schemaname',
             'username'  => 'mailuser',
             'password'  => '123456',
@@ -62,7 +62,7 @@ return [
      * ----------------------------
      */
     'url'       => [
-        'home'          => 'procambodia.dev'
+        'home'          => 'niyumtech.dev'
     ],
 
     /* ----------------------------
@@ -71,8 +71,8 @@ return [
      * ----------------------------
      */
     'mail'      => [
-        'log'           => 'log@procambodia.com',
-        'admin'         => 'admin@procambodia.com',
-        'error'         => 'error@procambodia.com',
+        'log'           => 'log@niyumtech.dev',
+        'admin'         => 'admin@niyumtech.dev',
+        'error'         => 'error@niyumtech.dev',
     ]
 ];
