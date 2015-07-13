@@ -1,0 +1,10 @@
+  RewriteEngine On
+  RewriteBase /
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # backend
+  RewriteRule ^backend/$ index.php?uri=$1 [NC]
+  RewriteRule ^backend/(.*)$ index.php?uri=$1 [NC]
+  RewriteRule ^backend/(.*)\.html$ index.php?uri=$1 [NC]
