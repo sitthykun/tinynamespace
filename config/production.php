@@ -62,7 +62,7 @@ return [
      * ----------------------------
      */
     'url'       => [
-        'home'          => 'niyumtech.com'
+        'home'          => 'niyum.tech'
     ],
 
     /* ----------------------------
@@ -71,8 +71,8 @@ return [
      * ----------------------------
      */
     'mail'      => [
-        'log'           => 'log@niyumtech.com',
-        'admin'         => 'admin@niyumtech.com',
-        'error'         => 'error@niyumtech.com',
+        'log'           => 'log@niyum.tech',
+        'admin'         => 'admin@niyum.tech',
+        'error'         => 'error@niyum.tech',
     ]
 ];
